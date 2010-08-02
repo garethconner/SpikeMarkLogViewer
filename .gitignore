@@ -1,0 +1,6 @@
+SpikeMarkLogViewer/bin
+SpikeMarkLogViewer/obj
+*.user
+*.suo
+_ReSharper.*
+*.sln.cache
