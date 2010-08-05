@@ -1,18 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpikeMarkLogViewer", "SpikeMarkLogViewer\SpikeMarkLogViewer.csproj", "{79624A60-965A-4F3C-A25B-9DDDAD410234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpikeMarkLogViewerSL", "SpikeMarkLogViewerSL\SpikeMarkLogViewerSL.csproj", "{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpikeMarkLogViewerSL.Web", "SpikeMarkLogViewerSL.Web\SpikeMarkLogViewerSL.Web.csproj", "{337680C9-C0A8-4710-8EF0-549EAEAB7789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{79624A60-965A-4F3C-A25B-9DDDAD410234}.Debug|x86.ActiveCfg = Debug|x86
-		{79624A60-965A-4F3C-A25B-9DDDAD410234}.Debug|x86.Build.0 = Debug|x86
-		{79624A60-965A-4F3C-A25B-9DDDAD410234}.Release|x86.ActiveCfg = Release|x86
-		{79624A60-965A-4F3C-A25B-9DDDAD410234}.Release|x86.Build.0 = Release|x86
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1ED9654D-BB61-432F-BBFE-08AE0C83BC6D}.Release|x86.ActiveCfg = Release|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{337680C9-C0A8-4710-8EF0-549EAEAB7789}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
