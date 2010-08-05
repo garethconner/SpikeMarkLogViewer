@@ -1,5 +1,8 @@
-SpikeMarkLogViewer/bin
-SpikeMarkLogViewer/obj
+SpikeMarkLogViewerSL/Bin
+SpikeMarkLogViewerSL/obj
+SpikeMarkLogViewerSL.Web/bin
+SpikeMarkLogViewerSL.Web/obj
+SpikeMarkLogViewerSL.Web/ClientBin
 *.user
 *.suo
 _ReSharper.*
