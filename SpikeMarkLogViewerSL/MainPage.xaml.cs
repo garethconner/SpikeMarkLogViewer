@@ -50,5 +50,25 @@ namespace SpikeMarkLogViewerSL
                 grdLog.ItemsSource = Log.Instance.Items;
             }
         }
+
+        private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchPhrase = txtSearch.Text.ToLower();
+            grdLog.ItemsSource = null;
+            if (searchPhrase.Equals(string.Empty))
+            {
+                grdLog.ItemsSource = Log.Instance.Items;
+                return;
+            }
+                
+
+            var foundItems = from item in Log.Instance.Items
+                             where (item.Source.ToLower().Contains(searchPhrase) |
+                                 item.Message.ToLower().Contains(searchPhrase) | 
+                                 item.MessageLevel.ToLower().Contains(searchPhrase))
+                             select item;
+            
+            grdLog.ItemsSource = foundItems;
+        }
     }
 }

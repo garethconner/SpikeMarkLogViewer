@@ -9,13 +9,30 @@
 
    
         <StackPanel>
-            <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal"
+                        Background="Black">
+            <TextBlock Foreground="Orange"
+                       FontSize="20"
+                       FontFamily="Trebuchet MS"
+                       Text="SpikeMark Log Viewer"
+                       Margin="5"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
                 <Button x:Name="btnOpenLog" 
                         Width="100"
                         Height="25"
                         Click="btnOpenLog_Click" 
-                        Content="Open Log..."/>
-            </StackPanel>
+                        Content="Open Log..."
+                        Margin="5"/>
+            <TextBlock Margin="5"
+                           Text="Search:" 
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="txtSearch"
+                     Margin="5"
+                     Height="25"
+                     Width="200"
+                     TextChanged="txtSearch_TextChanged"/>
+        </StackPanel>
             <sdk:DataGrid x:Name="grdLog" 
                           AutoGenerateColumns="True"
                           MaxHeight="600"/>
